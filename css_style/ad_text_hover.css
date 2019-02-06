@@ -1,0 +1,47 @@
+@charset "utf-8";
+#ad_text_hover {
+	height: 180px;
+	width: 929px;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+.abgne_tip_gallery_block {
+	padding: 0;
+	width: 929px;
+	height: 180px;
+	overflow: hidden;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	position: relative;
+}
+
+.abgne_tip_gallery_block img {
+	position: absolute;
+	border: 0;
+}
+.abgne_tip_gallery_block .caption {
+	position: absolute;	/* .abgne_tip_gallery_block 的高 - 想顯示 title 的高(這邊是設 55) */
+	width: 929px;
+	cursor: pointer;
+	color: #fff;
+	background: url(../img/1px_black.png) repeat;
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	top: 140px;
+}
+.abgne_tip_gallery_block .caption h2 {
+	margin: 0;
+	font-size: 20px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+.abgne_tip_gallery_block .caption h2 a {
+	text-decoration: none;
+	color: #fc6;
+}
