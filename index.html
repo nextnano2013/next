@@ -10,6 +10,14 @@
 <link href="css_style/share.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 <script type="text/javascript" src="css_style/ad_player.js"></script>
+<!-- 網站在GitHub主機上，需要使用CloudFlare提供的SSL，所以，使用以下這段js-->
+<script type="text/javascript">
+    var host = "x-bugs.net";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+</script>
+<link rel="canonical" href=" { { site.url } }{ { page.url } }" />
+<!-- 網站在GitHub主機上，需要使用CloudFlare提供的SSL，所以，使用上面這段js-->
 <style type="text/css">
 #content_left {
 	width: 415px;
